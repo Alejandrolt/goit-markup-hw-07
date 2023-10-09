@@ -4,7 +4,7 @@
 
 .border {
   border: 1px solid #eeeeee;
-  border-top: var(--color-white);
+  border-top: $color-white;
 }
 
 .button__list {
@@ -16,7 +16,7 @@
 }
 
 .button__filter {
-  color: var(--tittle-color);
+  color: $tittle-color;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
@@ -35,7 +35,7 @@
   }
   &:focus {
     background-color: $brand-color;
-    color: $brand-color;
+    color: $color-white;
   }
 }
 
