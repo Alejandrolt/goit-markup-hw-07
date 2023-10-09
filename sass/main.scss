@@ -1,0 +1,41 @@
+@import "./utils/variables";
+@import "./components/logo";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/_about";
+@import "./components/services";
+@import "./components/team";
+@import "./components/customers";
+@import "./components/footer";
+@import "./components/modal";
+@import "./components/portafolio";
+
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
