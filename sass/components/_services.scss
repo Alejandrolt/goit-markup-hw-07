@@ -7,37 +7,35 @@
   margin: 0;
 }
 
-.services__list {
+.services {
   display: flex;
   justify-content: space-between;
   column-gap: 30px;
-}
-
-.services__image {
-  width: 370px;
-  height: 294px;
-  color: $color-white;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.services__text {
-  background-color: $bottom-color;
-  color: $color-white;
-  height: 70px;
-  width: 370px;
-  opacity: 0.8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.services__bacground1 {
-  background-image: url(../images/caja1.jpg);
-}
-.services__bacground2 {
-  background-image: url(../images/caja2.jpg);
-}
-.services__bacground3 {
-  background-image: url(../images/caja3.jpg);
+  &__image {
+    width: 370px;
+    height: 294px;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  &__text {
+    background-color: $bottom-color;
+    color: $color-white;
+    height: 70px;
+    width: 370px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__bacground1 {
+    background-image: url(../images/caja1.jpg);
+  }
+  &__bacground2 {
+    background-image: url(../images/caja2.jpg);
+  }
+  &__bacground3 {
+    background-image: url(../images/caja3.jpg);
+  }
 }
