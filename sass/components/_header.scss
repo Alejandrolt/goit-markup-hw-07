@@ -18,14 +18,12 @@
       color: $brand-color;
     }
   }
-}
-
-.nav__link:active {
-  color: $brand-color;
-}
-
-.nav--active {
-  color: $brand-color;
+  &__link:active {
+    color: $brand-color;
+  }
+  &--active {
+    color: $brand-color;
+  }
 }
 
 .nav__link.nav--active::after {

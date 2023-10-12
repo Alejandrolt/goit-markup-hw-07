@@ -34,16 +34,15 @@
   height: 100%;
   display: block;
   padding: 40px;
-}
-
-.form_text {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 12px;
+  &_text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 12px;
+  }
 }
 
 .label {
@@ -187,9 +186,3 @@
     cursor: pointer;
   }
 }
-
-// .close_button:hover,
-// .close_button:focus {
-//   fill: var(--brand-color);
-//   cursor: pointer;
-// }

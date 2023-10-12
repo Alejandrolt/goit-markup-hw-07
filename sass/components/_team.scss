@@ -15,12 +15,11 @@
 .team__block {
   display: flex;
   justify-content: space-between;
-}
-
-.team__block--list {
-  display: flex;
-  flex-basis: calc((100% - 3 * 37px) / 4);
-  text-align: center;
+  &--list {
+    display: flex;
+    flex-basis: calc((100% - 3 * 37px) / 4);
+    text-align: center;
+  }
 }
 
 .card-team {
